@@ -31,12 +31,12 @@ class FeatureContext extends MinkContext
         // Initialize your context here
     }
 
-	/**
-     * @When /^I search for "([^"]*)"$/
-     */
-    public function iSearchFor($arg1)
-    {
-        $this->fillField("search_block_form", "behat");
-        $this->pressButton("Search");
-    }
+     /**
+      * @When /^I search for "([^"]*)"$/
+      */
+     public function iSearchFor($arg1)
+     {
+         $this->fillField("search_block_form", "behat");
+         $this->pressButton("Search");
+     }
 }
