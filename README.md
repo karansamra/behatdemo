@@ -7,7 +7,7 @@ BDD PHP framework Behat Implementation by Jsingh7[Jaskaran]
 	
 2. Run init command to initailise behat from the root of the project. It will create your feature directory.
 	
-	vendor/bin/behat --init [Linux command]
+	php vendor/bin/behat --init [Linux command]
 	
 3. You can create feature files in features directory.
 	
@@ -60,3 +60,11 @@ Feature: Drupal.org search
         Then I should see "Drupal8 Behat"
         
 Run this using command for e.g. php D:\behatdemo\vendor\bin\behat
+
+
+
+HELP======================
+
+1. You can make multiple feature files and can run specific using command:
+    
+    php vendor/bin/behat features/test2.feature
