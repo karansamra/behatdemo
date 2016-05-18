@@ -59,4 +59,4 @@ Feature: Drupal.org search
         And I press "Search"
         Then I should see "Drupal8 Behat"
         
-Run this using command for e.g. D:\behatdemo\vendor\bin\behat        
+Run this using command for e.g. php D:\behatdemo\vendor\bin\behat
